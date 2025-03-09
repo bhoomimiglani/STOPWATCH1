@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #282c34;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin-top: 100px;
+}
+
+.timer {
+    font-size: 48px;
+    margin: 20px 0;
+}
+
+.buttons button {
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#start {
+    background-color: #28a745;
+    color: white;
+}
+
+#stop {
+    background-color: #dc3545;
+    color: white;
+}
+
+#reset {
+    background-color: #ffc107;
+    color: black;
+}
+
+.buttons button:hover {
+    opacity: 0.8;
+}
